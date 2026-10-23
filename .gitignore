@@ -1,0 +1,29 @@
+# Compiled binaries and object files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+FinTrack
+FinTrackTests
+
+# CMake build directories
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Local user financial data, exports, and backups
+data/
+backups/
+test_tmp_data/
+test_tmp_backups/
+export_*.csv
+*.tmp
+
+# IDE configuration folders
+.vscode/
+.idea/
+*.swp
